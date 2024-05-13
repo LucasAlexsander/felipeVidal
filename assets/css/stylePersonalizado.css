@@ -1,0 +1,31 @@
+#main {
+  /* background-color: red !important; */
+  position: relative;
+  max-height: 100dvh;
+  overflow: hidden;
+}
+
+video {
+  max-width: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+#main form .border-geral, a.bordar-geral {
+  border-radius: 100px !important;
+}
+
+.cd-top.cd-is-visible {
+  border-radius: 100px !important;
+}
+
+#main form .border-direita {
+  border-radius: 0 100px 100px 0 !important;
+}
+
+#map-section {
+  background: url('../img/topbanner17.webp');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
