@@ -5,8 +5,10 @@
   overflow: hidden;
 }
 
-#navbar {
-  position: fixed;
+@media only screen and (min-width: 1000px) {
+  #navbar {
+    position: fixed;
+  } 
 }
 
 .btnEstilo {
@@ -26,9 +28,13 @@
 }
 
 video {
-  max-width: 100%;
-  width: 100%;
   background-size: contain;
+}
+
+@media only screen and (max-width: 1000px) {
+  video {
+    background-position: center right;
+  }
 }
 
 #main form .border-geral, a.bordar-geral {
