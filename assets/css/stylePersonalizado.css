@@ -10,6 +10,18 @@
   } 
 }
 
+[data-background=dark] .box-container .menu-wrap {
+  background-color: transparent !important;
+}
+
+[data-background=dark] .box-container .menu-wrap.fixed {
+  background-color: #15212a !important;
+}
+
+[data-background=dark] .box-container #clone tr.thead-clone th, [data-background=dark] .box-container .sec-bg3.infonews, [data-background=dark] .nav-menu .main-menu>.menu-item:hover, [data-background=dark] .popover {
+  background: none !important;
+}
+
 .btnEstilo {
   display: inline-block;
   font-size: 10px;
