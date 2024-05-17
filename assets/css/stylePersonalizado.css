@@ -4,14 +4,37 @@
   overflow: hidden;
 }
 
+.btn-menu-person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fdd700;
+  padding: 11px 30px;
+  font-size: 15px;
+  color: #000;
+  border-radius: 50px;
+  transition: background-color .3s linear, color .3s linear;
+}
+
+.btn-menu-person:hover {
+  background: #4c4a4a;
+  color: #fff;
+}
+
 @media only screen and (min-width: 1000px) {
   #navbar {
     position: fixed;
   } 
 }
 
-[data-background=dark] .box-container .menu-wrap {
-  background-color: transparent !important;
+[data-background=dark] .box-container .menu-wrap,
+[data-color=pink] .menu-wrap.fixed {
+  background: transparent !important;
+}
+
+.menu-wrap.fixed {
+  box-shadow: none;
 }
 
 [data-background=dark] .box-container .menu-wrap.fixed {
@@ -46,7 +69,7 @@
 video {
   background-size: contain;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 100dvh;
   object-fit: contain;
   overflow-clip-margin: content-box;
   overflow: clip;
@@ -69,4 +92,8 @@ video {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.services .service-wrap .service-section {
+  height: 93% !important;
 }

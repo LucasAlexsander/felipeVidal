@@ -32,16 +32,16 @@
     <script defer type="text/javascript" src="assets/js/swiper.min.js"></script>
     <script defer type="text/javascript" src="assets/js/jquery.lazyload-any.min.js"></script>
     <script defer type="text/javascript" src="assets/js/scripts.min.js"></script>
-    <script defer type="text/javascript" src="assets/js/settings-init.js"></script>
+    <!-- <script defer type="text/javascript" src="assets/js/settings-init.js"></script> -->
   </head>
-  <body >
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" data-layout="wide" data-color="pink" data-background="origin" data-font="opensans" data-header="static" data-textdirection="ltr" data-radius="defaultradius">
     <div class="box-container limit-width">
     <!-- ***** LOADING PAGE ****** -->
     <div id="spinner-area">
       <div class="spinner">
         <div class="double-bounce1"></div>
         <div class="double-bounce2"></div>
-        <div class="spinner-txt">Antler...</div>
+        <div class="spinner-txt">Global Forense...</div>
       </div>
     </div>
     <!-- ***** FRAME MODE ****** -->
@@ -58,9 +58,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-2 col-md-2">
-              <a href="." title="Logo Antler">
-                <img class="svg logo-menu d-block" src="./assets/img/logo.png" alt="logo Antler" width="110" height="40">
-                <img class="svg logo-menu d-none" src="./assets/img/logo.png" alt="logo Antler" width="110" height="40">
+              <a href="." title="Logo Global Forense">
+                <img id="logo-menu" class="svg d-block" src="./assets/img/LogoBranca.png" alt="logo Global Forense" height="50">
+                <img class="svg d-none" src="./assets/img/LogoBranca.png" alt="logo Global Forense" height="50">
               </a>
             </div>
             <nav id="menu" class="col-10 col-md-10">
@@ -72,7 +72,7 @@
                 </button>
                 <div class="main-menu nav navbar-nav navbar-right">
                   <div class="menu-item">
-                    <a href="login" class="pe-0 me-0" title="Login"> <div class="btn btn-default-yellow-fill question">Entre Em Contato</span> <i class="fas fa-sort-asc ps-1" style="transform: rotate(45deg)"></i> </div></a>
+                    <a href="login" class="pe-0 me-0" title="Login"> <div class="btn-menu-person">Entre Em Contato</span></div></a>
                   </div>
                 </div>
               </div>
@@ -86,8 +86,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-6">
-            <a href="." aria-label="Home Page"><img class="svg logo-menu d-block" src="./assets/img/logo.svg" alt="logo Antler" width="200" height="50"></a>
-            <a href="." aria-label="Home Page"><img class="svg logo-menu d-none" src="./assets/img/logo-light.svg" alt="logo Antler" width="200" height="50"></a>
+            <a href="." aria-label="Home Page"><img class="svg d-block" src="./assets/img/LogoBranca.png" alt="logo Global Forense" height="50"></a>
+            <a href="." aria-label="Home Page"><img class="svg d-none" src="./assets/img/LogoBranca.png" alt="logo Global Forense" height="50"></a>
           </div>
           <div class="col-6">
             <nav class="nav-menu float-end d-flex">
@@ -436,21 +436,6 @@
           </div>
         </div>
       </div>
-      <!-- ***** TRANSLATION ****** -->
-      <section id="drop-lng" class="btn-group btn-group-toggle toplang">
-        <label data-lng="en-US" for="en-lang" class="btn btn-secondary me-1 styletextDirection" data-value="ltr">
-          <input type="radio" id="en-lang" checked> EN
-        </label>
-        <label data-lng="pt-PT" for="pt-lang" class="btn btn-secondary styletextDirection" data-value="ltr">
-          <input type="radio" id="pt-lang"> PT
-        </label>
-        <label data-lng="ar-AR" for="ar-lang" class="btn btn-secondary me-1 styletextDirection" data-value="rtl">
-          <input type="radio" id="ar-lang"> AR
-        </label>
-        <label data-lng="es-ES" for="es-lang" class="btn btn-secondary styletextDirection" data-value="ltr">
-          <input type="radio" id="es-lang"> ES
-        </label>
-      </section>
   </header>
   <!-- ***** SLIDER ***** -->
   <section id="main" class="main-container slider">
@@ -460,7 +445,7 @@
         <!-- 1 Slider -->
         <div class="carousel-cell top-banner overlay">
           <div id="mainVideo" class="slider-content">
-            <div class="container ">
+            <div class="container">
               <div class="col-sm-12 col-md-7 px-0">
                 <p class="btnEstilo border-end-0 search initial-transform border-direita mb-2" style="font-size: 10px; padding: 0 10px;">Investigação de Ativos</p>
                 <h1 data-aos="fade-up" data-aos-duration="800">Pesquisa de Bens & Recuperação de Créditos</h1>
@@ -481,11 +466,11 @@
     </div>
   </section>
   <!-- ***** PRICING TABLES ***** -->
-  <section class="services bg-colorstyle sec-up-slider toppadding bottompadding">
+  <section class="services bg-colorstyle sec-up-slider toppadding bottompadding mt-0">
     <div class="container">
-      <div class="col-md-12 text-center" style="margin-bottom: 60px !important;">
-        <h2 class="section-heading text-white mergecolor">Tecnologia <b class="c-pink">Investigativa</b></h2>
-        <p class="section-subheading text-white mergecolor">Especialistas em localizar Informações, Bens, Direitos e Recebíveis no Brasil e no Exterior</p>
+      <div class="col-md-12 text-center pt-3" style="margin: 60px !important;">
+        <h2 class="section-heading text-dark mergecolor">Tecnologia <b class="c-pink">Investigativa</b></h2>
+        <p class="section-subheading text-dark mergecolor">Especialistas em localizar Informações, Bens, Direitos e Recebíveis no Brasil e no Exterior</p>
       </div>
       <div class="sec-main mb-0 sec-bg1 bg-colorstyle nomargin nopadding noshadow service-wrap">
         <div class="randomline hideelement">
@@ -543,14 +528,14 @@
       <div class="service-wrap">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2 class="section-heading text-white mergecolor">Nossas <b class="c-pink">Soluções</b></h2>
-            <p class="section-subheading text-white mergecolor">Combinamos tecnologia e inteligência forense para criar, desenvolver e acelerar jornadas de recuperação de crédito em qualquer modelo de negócio.</p>
+            <h2 class="section-heading text-dark mergecolor">Nossas <b class="c-pink">Soluções</b></h2>
+            <p class="section-subheading text-dark mergecolor">Combinamos tecnologia e inteligência forense para criar, desenvolver e acelerar jornadas de recuperação de crédito em qualquer modelo de negócio.</p>
           </div>
 
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa fa-line-chart" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa fa-line-chart" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Desblindagem Patrimonial</div>
               <p class="subtitle seccolor">
@@ -561,7 +546,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa fa-search" style="color: #a5215e!important" aria-hidden="true"></i>
+                <i class="fa fa-search" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Busca Internacional de Ativos</div>
               <p class="subtitle seccolor">
@@ -572,7 +557,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa fa-line-chart" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa fa-line-chart" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Prevenção de Inadimplência</div>
               <p class="subtitle seccolor">
@@ -583,7 +568,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa fa-home" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa fa-home" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Análise e Investigação Patrimonial</div>
               <p class="subtitle seccolor">
@@ -594,7 +579,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa fa-solid fa-file-signature" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa fa-solid fa-file-signature" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Inteligência em Dados</div>
               <p class="subtitle seccolor">
@@ -605,7 +590,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa-solid fa-bullseye" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa-solid fa-bullseye" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Checagem Técnica</div>
               <p class="subtitle seccolor">
@@ -616,7 +601,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa-solid fa-rocket" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa-solid fa-rocket" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Investigação de Ativos em Carteiras de Créditos NPL</div>
               <p class="subtitle seccolor">
@@ -627,7 +612,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa fa-solid fa-magnifying-glass-chart" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa fa-solid fa-magnifying-glass-chart" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Análise de Crédito</div>
               <p class="subtitle seccolor">
@@ -638,7 +623,7 @@
           <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="1200">
             <div class="service-section bg-colorstyle noshadow">
               <div class="lazyload">
-                <i class="fa-solid fa-bullseye" style="color: #a5215e!important;" aria-hidden="true"></i>
+                <i class="fa-solid fa-bullseye" style="color: #0475F0!important;" aria-hidden="true"></i>
               </div>
               <div class="title mergecolor">Compliance</div>
               <p class="subtitle seccolor">
@@ -657,7 +642,7 @@
       <div class="service-wrap">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <h2 class="section-heading text-white">Our Datacenters are Located in 7 Regions</h2>
+            <h2 class="section-heading text-dark">Our Datacenters are Located in 7 Regions</h2>
             <p class="section-subheading text-light"><span class="golink">Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit sed, do eiusmod tempor  <span class="c-pink">incididunt lorem ipsum</span> dolor sit amet</p>
           </div>
           <div class="col-md-12 pt-5 position-relative">
@@ -969,8 +954,8 @@
             </ul>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img class="svg logo-footer d-block" src="./assets/img/logo.svg" alt="logo" width="200" height="50">
-            <img class="svg logo-footer d-none" src="./assets/img/logo-light.svg" alt="logo" width="200" height="50">
+            <img class="svg logo-footer d-block" src="./assets/img/LogoBranco.png" alt="logo" height="50">
+            <img class="svg logo-footer d-none" src="./assets/img/LogoBranco.png" alt="logo" height="50">
             <div class="copyright">© Copyright 2019 - 2024 | Antler Hosting Provider & WHMCS Template by INEBUR All rights reserved</div>
             <div class="soc-icons">
               <a href="#" title="Facebook"><i class="fab fa-facebook-f withborder noshadow"></i></a>
@@ -1051,6 +1036,33 @@ pageDots: true,
 autoPlay: 6000,
 fade: true
 });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const logoElement = document.getElementById("logo-menu");
+    const main = document.getElementById("main");
+    const mapa = document.getElementById("map-section");
+
+    function VerificaTelas(tela, tela2) {
+      let valorTotalMain = tela.offsetTop + tela.clientHeight;
+      if (tela.offsetTop <= window.scrollY && valorTotalMain >= window.scrollY) {
+        logoElement.src = "./assets/img/LogoBranca.png";
+      } else {
+        logoElement.src = "./assets/img/LogoPreta.png";
+        let valorTotalMap = tela2.offsetTop + tela2.clientHeight; // 4474 
+        if (tela2.offsetTop <= window.scrollY && valorTotalMap >= window.scrollY) {
+          logoElement.src = "./assets/img/LogoBranca.png";
+        } else {
+          logoElement.src = "./assets/img/LogoPreta.png";
+        } 
+      }       
+    }
+
+    document.addEventListener('scroll', () => {
+      VerificaTelas(main, mapa);
+    });
+  })
 </script>
 </body>
 </html>
