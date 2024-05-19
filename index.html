@@ -1049,6 +1049,7 @@ fade: true
       if (tela.offsetTop <= window.scrollY && valorTotalMain >= window.scrollY) {
         logoElement.src = "./assets/img/LogoBranca.png";
       } else {
+        console.log('oi')
         logoElement.src = "./assets/img/LogoPreta.png";
         let valorTotalMap = tela2.offsetTop + tela2.clientHeight; // 4474 
         if (tela2.offsetTop <= window.scrollY && valorTotalMap >= window.scrollY) {
@@ -1060,7 +1061,6 @@ fade: true
     }
 
     document.addEventListener('scroll', () => {
-      console.log('oi')
       VerificaTelas(main, mapa);
     });
   })
