@@ -2,6 +2,7 @@
   position: relative !important;
   max-height: 100dvh !important;
   overflow: hidden !important;
+  background: #15212a !important;
 }
 
 .btn-menu-person {
@@ -14,7 +15,7 @@
   font-size: 15px !important;
   color: #000 !important;
   border-radius: 50px !important;
-  transition: background-color .3s linear, color .3s linear !important;
+  transition: background-color 0.3s linear, color 0.3s linear !important;
 }
 
 .btn-menu-person:hover {
@@ -25,11 +26,11 @@
 @media only screen and (min-width: 1000px) {
   #navbar {
     position: fixed !important;
-  } 
+  }
 }
 
-[data-background=dark] .box-container .menu-wrap,
-[data-color=pink] .menu-wrap.fixed {
+[data-background="dark"] .box-container .menu-wrap,
+[data-color="pink"] .menu-wrap.fixed {
   background: transparent !important;
 }
 
@@ -37,11 +38,14 @@
   box-shadow: none !important;
 }
 
-[data-background=origin] .box-container .menu-wrap.fixed {
+[data-background="origin"] .box-container .menu-wrap.fixed {
   background-color: #15212a !important;
 }
 
-[data-background=dark] .box-container #clone tr.thead-clone th, [data-background=dark] .box-container .sec-bg3.infonews, [data-background=dark] .nav-menu .main-menu>.menu-item:hover, [data-background=dark] .popover {
+[data-background="dark"] .box-container #clone tr.thead-clone th,
+[data-background="dark"] .box-container .sec-bg3.infonews,
+[data-background="dark"] .nav-menu .main-menu > .menu-item:hover,
+[data-background="dark"] .popover {
   background: none !important;
 }
 
@@ -51,14 +55,14 @@
   padding: 0 10px !important;
   position: relative !important;
   border-radius: 50px !important;
-  background: #fdd700!important;
+  background: #fdd700 !important;
   color: #000 !important;
   border: none !important;
   text-transform: capitalize !important;
-  letter-spacing: .2px !important;
+  letter-spacing: 0.2px !important;
   font-weight: 700 !important;
   box-shadow: 0 2px 8px 0 rgb(62 62 79 / 23%) !important;
-  transition: .3s linear !important;
+  transition: 0.3s linear !important;
 }
 
 .video-slide {
@@ -75,7 +79,8 @@ video {
   overflow: clip !important;
 }
 
-#main form .border-geral, a.bordar-geral {
+#main form .border-geral,
+a.bordar-geral {
   border-radius: 100px !important;
 }
 
@@ -88,7 +93,7 @@ video {
 }
 
 #map-section {
-  background: url('../img/topbanner17.webp') !important;
+  background: url("../img/topbanner17.webp") !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
