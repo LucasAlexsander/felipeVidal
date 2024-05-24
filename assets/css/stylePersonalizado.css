@@ -37,7 +37,7 @@
   box-shadow: none !important;
 }
 
-[data-background=dark] .box-container .menu-wrap.fixed {
+[data-background=origin] .box-container .menu-wrap.fixed {
   background-color: #15212a !important;
 }
 
